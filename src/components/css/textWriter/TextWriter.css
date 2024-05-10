@@ -1,0 +1,30 @@
+.line {
+  position: relative;
+  border-right: 2px solid #fff;
+  overflow: hidden;
+  width: 20em;
+  margin: auto;
+  white-space: nowrap;
+}
+
+.anim-typeWriter {
+  animation: typeWriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typeWriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 12em;
+  }
+}
+@keyframes blinkTextCursor {
+  0% {
+    border-right-color: #fff;
+  }
+  100% {
+    border-right-color: transparent;
+  }
+}

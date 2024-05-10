@@ -1,0 +1,33 @@
+.circle {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 50%;
+  animation: animates 5s infinite;
+  display: inline-block;
+}
+@keyframes animates {
+  50% {
+    height: 100px;
+    width: 100px;
+  }
+}
+#circle1 {
+  background-color: #f60;
+}
+#circle2 {
+  background-color: #ff0;
+  animation-delay: 0.7s;
+}
+#circle3 {
+  background-color: #fff;
+  animation-delay: 1.5s;
+}
+#circle4 {
+  background-color: #0ff;
+  animation-delay: 2.1s;
+}
+#circle5 {
+  background-color: #00f;
+  animation-delay: 2.7s;
+}
