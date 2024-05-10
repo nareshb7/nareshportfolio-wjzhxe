@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const AgeCalculator = () => {
   const [dob, setDob] = useState('');
   const [result, setResult] = useState('');
-
+  console.log("TESTING::::::1233333")
   const handleFunc = () => {
     //It checks Ur DOB with Present Date and Calculates the Days...
     // we calculated per month as 31 days
